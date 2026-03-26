@@ -56,7 +56,7 @@ common:
 server:
   port: 8090                 # Port on which the Spring Boot application will run
   servlet:
-    context-path: /${spring.application.name}/${common.version}      # Context path for the application endpoints
+    context-path: /${spring.application.name}      # Context path for the application endpoints
 #  ssl:
 #    enabled: false
 #    key-store: classpath:wildcard_prismxai_com.pfx
