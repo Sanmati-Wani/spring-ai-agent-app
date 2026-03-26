@@ -23,7 +23,6 @@ COPY --from=build /app/extracted/application/ ./
 RUN chown -R agent:agent /app
 USER agent
 
-ENV PORT=8093
 ENV SERVER_CONTEXT_PATH=/
 ENV JAVA_OPTS="-XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -Djava.security.egd=file:/dev/./urandom"
 
