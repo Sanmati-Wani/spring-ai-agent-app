@@ -54,7 +54,7 @@ langchain4j:
 common:
   version: v1
 server:
-  port: 8093                 # Port on which the Spring Boot application will run
+  port: ${PORT:8090}                 # Port on which the Spring Boot application will run
   servlet:
     context-path: /      # Context path for the application endpoints
 #  ssl:
