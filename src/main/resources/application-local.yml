@@ -49,7 +49,7 @@ spring:
 langchain4j:
   open-ai:
     chat-model:
-      api-key: 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
+      api-key: ${key}
       model-name: gpt-4o-mini
 common:
   version: v1
