@@ -77,7 +77,7 @@ agent:
   platform:
     default-model-provider: openai
     context-profile: balanced
-    api-key: ${OPENAI_API_KEY}
+    api-key: ${key}
     rate-limit-per-minute: 120
     audit-dir: .agent-audit
     compiler-output-max-chars: 50000
