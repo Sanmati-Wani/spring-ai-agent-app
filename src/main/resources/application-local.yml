@@ -1,0 +1,139 @@
+spring:
+  application:
+    name: spring-ai-agent-app
+  config:
+    activate:
+      on-profile: local
+  ai:
+    mcp:
+      server:
+        name: spring-ai-agent-mcp-server
+        version: 1.0.0
+        type: SYNC
+        protocol: SSE
+        sse-message-endpoint: /mcp/messages
+      client:
+        enabled: true
+        type: SYNC
+        initialized: true
+        request-timeout: 30s
+        toolcallback:
+          enabled: true
+        stdio:
+          connections: {}
+#           Example: uncomment and configure to connect to external MCP servers
+#           filesystem:
+#             command: cmd.exe
+#             args:
+#               - /c
+#               - npx
+#               - -y
+#               - "@modelcontextprotocol/server-filesystem"
+#               - "D:\\allowed-directory"
+#           brave-search:
+#             command: cmd.exe
+#             args:
+#               - /c
+#               - npx
+#               - -y
+#               - "@anthropic/mcp-server-brave-search"
+#             env:
+#               BRAVE_API_KEY: ${BRAVE_API_KEY:}
+        sse:
+          connections: {}
+#           Example: uncomment and configure to connect to SSE-based MCP servers
+#           remote-server:
+#             url: http://localhost:3001
+#             sse-endpoint: /sse
+
+langchain4j:
+  open-ai:
+    chat-model:
+      api-key: ${OPENAI_API_KEY}
+      model-name: ${OPENAI_MODEL_NAME:gpt-4o-mini}
+common:
+  version: v1
+server:
+  port: 8090                 # Port on which the Spring Boot application will run
+  servlet:
+    context-path: /${spring.application.name}/${common.version}      # Context path for the application endpoints
+#  ssl:
+#    enabled: false
+#    key-store: classpath:wildcard_prismxai_com.pfx
+#    key-store-password: 123456789
+#    key-store-type: JKS
+#    key-store-provider: SUN
+logging:
+  level:
+    root: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+
+agent:
+  platform:
+    default-model-provider: openai
+    context-profile: balanced
+    api-key: ${OPENAI_API_KEY}
+    rate-limit-per-minute: 120
+    audit-dir: .agent-audit
+    compiler-output-max-chars: 50000
+    ai-prompt-max-chars: 50000
+    ai-output-max-chars: 50000
+    error-chunk-max-chars: 15000
+    max-chunks-per-iteration: 4
+    max-files-per-run: 120
+    production-safety-always-on: true
+  providers:
+    openai:
+      enabled: true
+      api-key: ${OPENAI_API_KEY}
+      model-name: ${OPENAI_MODEL_NAME:gpt-5.3-chat-latest}
+      temperature: ${OPENAI_TEMPERATURE:1.0}
+    gemini:
+      enabled: false
+      api-key: ${GOOGLE_GENAI_API_KEY:}
+      model-name: ${GEMINI_MODEL_NAME:gemini-1.5-flash}
+      temperature: ${GEMINI_TEMPERATURE:0.7}
+    vertex-gemini:
+      enabled: false
+      api-key: ${VERTEX_GEMINI_API_KEY:}
+      model-name: ${VERTEX_GEMINI_MODEL_NAME:gemini-1.5-pro}
+      temperature: ${VERTEX_GEMINI_TEMPERATURE:0.7}
+    anthropic:
+      enabled: false
+      api-key: ${ANTHROPIC_API_KEY:}
+      model-name: ${ANTHROPIC_MODEL_NAME:claude-3-5-sonnet-20241022}
+      temperature: ${ANTHROPIC_TEMPERATURE:0.7}
+    azure-openai:
+      enabled: false
+      api-key: ${AZURE_OPENAI_API_KEY:}
+      model-name: ${AZURE_OPENAI_MODEL_NAME:gpt-4o}
+      temperature: ${AZURE_OPENAI_TEMPERATURE:1.0}
+    ollama:
+      enabled: false
+      api-key: ${OLLAMA_API_KEY:}
+      model-name: ${OLLAMA_MODEL_NAME:llama3.1}
+      temperature: ${OLLAMA_TEMPERATURE:0.7}
+    mistral:
+      enabled: false
+      api-key: ${MISTRAL_API_KEY:}
+      model-name: ${MISTRAL_MODEL_NAME:mistral-large-latest}
+      temperature: ${MISTRAL_TEMPERATURE:0.7}
+    openrouter:
+      enabled: false
+      api-key: ${OPENROUTER_API_KEY:}
+      model-name: ${OPENROUTER_MODEL_NAME:openai/gpt-4o-mini}
+      temperature: ${OPENROUTER_TEMPERATURE:0.7}
+
+springdoc:
+  show-actuator: true
+
+  api-docs:
+    path: /prismx-agent-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html

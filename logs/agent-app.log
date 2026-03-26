@@ -1,0 +1,252 @@
+2026-03-26 00:00:38.178 INFO  [SpringApplicationShutdownHook] [req:] o.s.b.w.e.t.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26 00:00:38.214 INFO  [tomcat-shutdown] [req:] o.s.b.w.e.t.GracefulShutdown - Graceful shutdown complete
+2026-03-26 00:00:39.813 INFO  [background-preinit] [req:] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-03-26 00:00:39.841 INFO  [main] [req:] c.p.a.AgentApplication - Starting AgentApplication using Java 17.0.12 with PID 24632 (D:\TestAgents\spring-ai-agent-app\target\classes started by SanmatiWani in D:\TestAgents\spring-ai-agent-app)
+2026-03-26 00:00:39.844 INFO  [main] [req:] c.p.a.AgentApplication - The following 1 profile is active: "local"
+2026-03-26 00:00:40.902 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2026-03-26 00:00:40.911 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:00:40.912 INFO  [main] [req:] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-03-26 00:00:40.912 INFO  [main] [req:] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-26 00:00:40.968 INFO  [main] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring embedded WebApplicationContext
+2026-03-26 00:00:40.970 INFO  [main] [req:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1098 ms
+2026-03-26 00:00:42.077 INFO  [main] [req:] o.s.b.a.e.w.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-03-26 00:00:42.120 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:00:42.135 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/spring-ai-agent-app/v1'
+2026-03-26 00:00:42.147 INFO  [main] [req:] c.p.a.AgentApplication - Started AgentApplication in 2.599 seconds (process running for 3.228)
+2026-03-26 00:00:42.179 WARN  [main] [req:] o.s.c.e.SpringDocAppInitializer - SpringDoc /prismx-agent-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-26 00:01:26.403 INFO  [http-nio-8090-exec-1] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-26 00:01:26.405 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-26 00:01:26.407 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+2026-03-26 00:10:52.738 INFO  [SpringApplicationShutdownHook] [req:] o.s.b.w.e.t.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26 00:10:52.765 INFO  [tomcat-shutdown] [req:] o.s.b.w.e.t.GracefulShutdown - Graceful shutdown complete
+2026-03-26 00:10:55.871 INFO  [background-preinit] [req:] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-03-26 00:10:55.895 INFO  [main] [req:] c.p.a.AgentApplication - Starting AgentApplication using Java 17.0.12 with PID 18680 (D:\TestAgents\spring-ai-agent-app\target\classes started by SanmatiWani in D:\TestAgents\spring-ai-agent-app)
+2026-03-26 00:10:55.898 INFO  [main] [req:] c.p.a.AgentApplication - The following 1 profile is active: "local"
+2026-03-26 00:10:56.970 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2026-03-26 00:10:56.978 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:10:56.981 INFO  [main] [req:] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-03-26 00:10:56.981 INFO  [main] [req:] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-26 00:10:57.037 INFO  [main] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring embedded WebApplicationContext
+2026-03-26 00:10:57.038 INFO  [main] [req:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1115 ms
+2026-03-26 00:10:58.931 INFO  [main] [req:] o.s.b.a.e.w.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-03-26 00:10:59.022 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:10:59.051 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/spring-ai-agent-app/v1'
+2026-03-26 00:10:59.082 INFO  [main] [req:] c.p.a.AgentApplication - Started AgentApplication in 3.464 seconds (process running for 3.958)
+2026-03-26 00:10:59.155 WARN  [main] [req:] o.s.c.e.SpringDocAppInitializer - SpringDoc /prismx-agent-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-26 00:11:16.093 INFO  [http-nio-8090-exec-1] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-26 00:11:16.097 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-26 00:11:16.100 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+2026-03-26 00:15:39.881 INFO  [SpringApplicationShutdownHook] [req:] o.s.b.w.e.t.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26 00:15:39.907 INFO  [tomcat-shutdown] [req:] o.s.b.w.e.t.GracefulShutdown - Graceful shutdown complete
+2026-03-26 00:15:43.760 INFO  [background-preinit] [req:] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-03-26 00:15:43.793 INFO  [main] [req:] c.p.a.AgentApplication - Starting AgentApplication using Java 17.0.12 with PID 38096 (D:\TestAgents\spring-ai-agent-app\target\classes started by SanmatiWani in D:\TestAgents\spring-ai-agent-app)
+2026-03-26 00:15:43.796 INFO  [main] [req:] c.p.a.AgentApplication - The following 1 profile is active: "local"
+2026-03-26 00:15:44.813 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2026-03-26 00:15:44.820 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:15:44.822 INFO  [main] [req:] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-03-26 00:15:44.823 INFO  [main] [req:] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-26 00:15:44.877 INFO  [main] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring embedded WebApplicationContext
+2026-03-26 00:15:44.879 INFO  [main] [req:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1048 ms
+2026-03-26 00:15:45.921 INFO  [main] [req:] o.s.b.a.e.w.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-03-26 00:15:46.094 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:15:46.155 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/spring-ai-agent-app/v1'
+2026-03-26 00:15:46.229 INFO  [main] [req:] c.p.a.AgentApplication - Started AgentApplication in 2.739 seconds (process running for 3.273)
+2026-03-26 00:15:46.368 WARN  [main] [req:] o.s.c.e.SpringDocAppInitializer - SpringDoc /prismx-agent-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-26 00:16:05.403 INFO  [http-nio-8090-exec-1] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-26 00:16:05.404 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-26 00:16:05.406 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2026-03-26 00:22:28.652 INFO  [SpringApplicationShutdownHook] [req:] o.s.b.w.e.t.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26 00:22:57.824 INFO  [background-preinit] [req:] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-03-26 00:22:57.906 INFO  [main] [req:] c.p.a.AgentApplication - Starting AgentApplication using Java 17.0.12 with PID 30864 (D:\TestAgents\spring-ai-agent-app\target\classes started by SanmatiWani in D:\TestAgents\spring-ai-agent-app)
+2026-03-26 00:22:57.915 INFO  [main] [req:] c.p.a.AgentApplication - The following 1 profile is active: "local"
+2026-03-26 00:23:01.650 INFO  [background-preinit] [req:] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-03-26 00:23:01.760 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2026-03-26 00:23:01.775 INFO  [main] [req:] c.p.a.AgentApplication - Starting AgentApplication using Java 17.0.12 with PID 12984 (D:\TestAgents\spring-ai-agent-app\target\classes started by SanmatiWani in D:\TestAgents\spring-ai-agent-app)
+2026-03-26 00:23:01.783 INFO  [main] [req:] c.p.a.AgentApplication - The following 1 profile is active: "local"
+2026-03-26 00:23:01.787 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:23:01.791 INFO  [main] [req:] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-03-26 00:23:01.791 INFO  [main] [req:] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-26 00:23:02.030 INFO  [main] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring embedded WebApplicationContext
+2026-03-26 00:23:02.036 INFO  [main] [req:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4037 ms
+2026-03-26 00:23:05.248 INFO  [main] [req:] o.s.b.a.e.w.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-03-26 00:23:05.363 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:23:05.431 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/spring-ai-agent-app/v1'
+2026-03-26 00:23:05.469 INFO  [main] [req:] c.p.a.AgentApplication - Started AgentApplication in 8.288 seconds (process running for 9.676)
+2026-03-26 00:23:05.474 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2026-03-26 00:23:05.506 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:23:05.510 INFO  [main] [req:] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-03-26 00:23:05.510 INFO  [main] [req:] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-26 00:23:05.611 WARN  [main] [req:] o.s.c.e.SpringDocAppInitializer - SpringDoc /prismx-agent-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-26 00:23:05.657 INFO  [main] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring embedded WebApplicationContext
+2026-03-26 00:23:05.661 INFO  [main] [req:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3771 ms
+2026-03-26 00:23:07.702 INFO  [main] [req:] o.s.b.a.e.w.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-03-26 00:23:07.776 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:23:07.788 WARN  [main] [req:] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-26 00:23:07.830 INFO  [main] [req:] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-26 00:23:07.870 ERROR [main] [req:] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2026-03-26 00:23:11.863 INFO  [http-nio-8090-exec-1] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-26 00:23:11.864 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-26 00:23:11.866 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2026-03-26 00:23:16.059 INFO  [SpringApplicationShutdownHook] [req:] o.s.b.w.e.t.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26 00:23:27.820 INFO  [background-preinit] [req:] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-03-26 00:23:27.901 INFO  [main] [req:] c.p.a.AgentApplication - Starting AgentApplication using Java 17.0.12 with PID 5140 (D:\TestAgents\spring-ai-agent-app\target\classes started by SanmatiWani in D:\TestAgents\spring-ai-agent-app)
+2026-03-26 00:23:27.911 INFO  [main] [req:] c.p.a.AgentApplication - The following 1 profile is active: "local"
+2026-03-26 00:23:31.323 INFO  [background-preinit] [req:] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-03-26 00:23:31.400 INFO  [main] [req:] c.p.a.AgentApplication - Starting AgentApplication using Java 17.0.12 with PID 11412 (D:\TestAgents\spring-ai-agent-app\target\classes started by SanmatiWani in D:\TestAgents\spring-ai-agent-app)
+2026-03-26 00:23:31.407 INFO  [main] [req:] c.p.a.AgentApplication - The following 1 profile is active: "local"
+2026-03-26 00:23:35.609 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2026-03-26 00:23:35.645 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:23:35.648 INFO  [main] [req:] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-03-26 00:23:35.649 INFO  [main] [req:] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-26 00:23:36.075 INFO  [main] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring embedded WebApplicationContext
+2026-03-26 00:23:36.087 INFO  [main] [req:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8081 ms
+2026-03-26 00:23:37.804 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2026-03-26 00:23:37.812 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:23:37.813 INFO  [main] [req:] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-03-26 00:23:37.814 INFO  [main] [req:] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-26 00:23:37.896 INFO  [main] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring embedded WebApplicationContext
+2026-03-26 00:23:37.898 INFO  [main] [req:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6423 ms
+2026-03-26 00:23:38.961 INFO  [main] [req:] o.s.b.a.e.w.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-03-26 00:23:39.047 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:23:39.084 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/spring-ai-agent-app/v1'
+2026-03-26 00:23:39.120 INFO  [main] [req:] c.p.a.AgentApplication - Started AgentApplication in 11.96 seconds (process running for 13.27)
+2026-03-26 00:23:39.210 WARN  [main] [req:] o.s.c.e.SpringDocAppInitializer - SpringDoc /prismx-agent-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-26 00:23:39.367 INFO  [http-nio-8090-exec-1] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-26 00:23:39.368 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-26 00:23:39.370 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+2026-03-26 00:23:40.335 INFO  [main] [req:] o.s.b.a.e.w.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-03-26 00:23:40.458 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:23:40.473 WARN  [main] [req:] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-26 00:23:40.535 INFO  [main] [req:] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-26 00:23:40.611 ERROR [main] [req:] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2026-03-26 00:23:52.262 INFO  [SpringApplicationShutdownHook] [req:] o.s.b.w.e.t.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26 00:23:55.903 INFO  [background-preinit] [req:] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-03-26 00:23:55.930 INFO  [main] [req:] c.p.a.AgentApplication - Starting AgentApplication using Java 17.0.12 with PID 19616 (D:\TestAgents\spring-ai-agent-app\target\classes started by SanmatiWani in D:\TestAgents\spring-ai-agent-app)
+2026-03-26 00:23:55.933 INFO  [main] [req:] c.p.a.AgentApplication - The following 1 profile is active: "local"
+2026-03-26 00:23:57.726 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2026-03-26 00:23:57.747 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:23:57.750 INFO  [main] [req:] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-03-26 00:23:57.751 INFO  [main] [req:] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-26 00:23:57.895 INFO  [main] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring embedded WebApplicationContext
+2026-03-26 00:23:57.898 INFO  [main] [req:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1934 ms
+2026-03-26 00:24:00.305 INFO  [main] [req:] o.s.b.a.e.w.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-03-26 00:24:00.379 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-03-26 00:24:00.418 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/spring-ai-agent-app/v1'
+2026-03-26 00:24:00.449 INFO  [main] [req:] c.p.a.AgentApplication - Started AgentApplication in 4.84 seconds (process running for 5.345)
+2026-03-26 00:24:00.563 WARN  [main] [req:] o.s.c.e.SpringDocAppInitializer - SpringDoc /prismx-agent-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-26 00:24:04.785 INFO  [http-nio-8090-exec-1] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-26 00:24:04.785 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-26 00:24:04.789 INFO  [http-nio-8090-exec-1] [req:] o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+2026-03-26 11:38:45.950 INFO  [SpringApplicationShutdownHook] [req:] o.s.b.w.e.t.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26 11:38:45.984 INFO  [tomcat-shutdown] [req:] o.s.b.w.e.t.GracefulShutdown - Graceful shutdown complete
+2026-03-26 11:43:11.660 ERROR [main] [req:] o.s.b.SpringApplication - Application run failed
+org.yaml.snakeyaml.constructor.DuplicateKeyException: while constructing a mapping
+ in 'reader', line 1, column 1:
+    spring:
+    ^
+found duplicate key spring
+ in 'reader', line 91, column 1:
+    spring:
+    ^
+
+	at org.yaml.snakeyaml.constructor.SafeConstructor.processDuplicateKeys(SafeConstructor.java:119) ~[snakeyaml-2.4.jar:?]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.flattenMapping(SafeConstructor.java:71) ~[snakeyaml-2.4.jar:?]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.flattenMapping(SafeConstructor.java:66) ~[snakeyaml-2.4.jar:?]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:204) ~[snakeyaml-2.4.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:553) ~[snakeyaml-2.4.jar:?]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:592) ~[snakeyaml-2.4.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:265) ~[snakeyaml-2.4.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:248) ~[snakeyaml-2.4.jar:?]
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.constructObject(OriginTrackedYamlLoader.java:119) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:202) ~[snakeyaml-2.4.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:167) ~[snakeyaml-2.4.jar:?]
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:99) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:530) ~[snakeyaml-2.4.jar:?]
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:203) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:169) ~[spring-beans-6.2.17.jar:6.2.17]
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:96) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:132) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:129) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processWithProfiles(ConfigDataEnvironment.java:322) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:241) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:134) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:117) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64) ~[spring-boot-3.5.12.jar:3.5.12]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63) ~[spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:353) [spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313) [spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.12.jar:3.5.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.12.jar:3.5.12]
+	at com.prismx.ai.AgentApplication.main(AgentApplication.java:10) [classes/:?]
+2026-03-26 12:02:01.904 INFO  [background-preinit] [req:] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-03-26 12:02:01.931 INFO  [main] [req:] c.p.a.AgentApplication - Starting AgentApplication using Java 17.0.12 with PID 36764 (D:\TestAgents\spring-ai-agent-app\target\classes started by SanmatiWani in D:\TestAgents\spring-ai-agent-app)
+2026-03-26 12:02:01.934 INFO  [main] [req:] c.p.a.AgentApplication - The following 1 profile is active: "local"
+2026-03-26 12:02:03.317 WARN  [main] [req:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-03-26 12:02:03.320 WARN  [main] [req:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'serverAnnotatedBeanRegistry' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration$ServerMcpAnnotatedBeans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-03-26 12:02:03.333 WARN  [main] [req:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.ai.mcp.server.annotation-scanner-org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-03-26 12:02:03.590 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2026-03-26 12:02:03.599 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2026-03-26 12:02:03.600 INFO  [main] [req:] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-03-26 12:02:03.601 INFO  [main] [req:] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-26 12:02:03.677 INFO  [main] [req:] o.a.c.c.C.[.[.[/spring-ai-agent-app/v1] - Initializing Spring embedded WebApplicationContext
+2026-03-26 12:02:03.682 INFO  [main] [req:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1716 ms
+2026-03-26 12:02:04.529 INFO  [main] [req:] c.p.a.m.McpClientService - McpClientService initialized with 0 connected MCP server(s)
+2026-03-26 12:02:05.189 INFO  [main] [req:] o.s.a.m.s.c.a.McpServerAutoConfiguration - Enable tools capabilities, notification: true
+2026-03-26 12:02:05.190 INFO  [main] [req:] o.s.a.m.s.c.a.McpServerAutoConfiguration - Registered tools: 6
+2026-03-26 12:02:05.190 INFO  [main] [req:] o.s.a.m.s.c.a.McpServerAutoConfiguration - Enable resources capabilities, notification: true
+2026-03-26 12:02:05.191 INFO  [main] [req:] o.s.a.m.s.c.a.McpServerAutoConfiguration - Enable resources templates capabilities, notification: true
+2026-03-26 12:02:05.191 INFO  [main] [req:] o.s.a.m.s.c.a.McpServerAutoConfiguration - Enable prompts capabilities, notification: true
+2026-03-26 12:02:05.192 INFO  [main] [req:] o.s.a.m.s.c.a.McpServerAutoConfiguration - Enable completions capabilities
+2026-03-26 12:02:05.326 INFO  [main] [req:] o.s.b.a.e.w.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-03-26 12:02:05.341 WARN  [main] [req:] o.s.a.m.a.p.s.SyncMcpSamplingProvider - No sampling methods found
+2026-03-26 12:02:05.343 WARN  [main] [req:] o.s.a.m.a.p.e.SyncMcpElicitationProvider - No elicitation methods found
+2026-03-26 12:02:05.366 INFO  [main] [req:] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2026-03-26 12:02:05.391 INFO  [main] [req:] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/spring-ai-agent-app/v1'
+2026-03-26 12:02:05.406 INFO  [main] [req:] c.p.a.AgentApplication - Started AgentApplication in 3.767 seconds (process running for 4.377)
+2026-03-26 12:02:05.444 WARN  [main] [req:] o.s.c.e.SpringDocAppInitializer - SpringDoc /prismx-agent-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'

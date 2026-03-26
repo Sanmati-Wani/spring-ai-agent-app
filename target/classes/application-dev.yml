@@ -1,0 +1,73 @@
+spring:
+  application:
+    name: spring-ai-agent-app
+  config:
+    activate:
+      on-profile: dev
+
+langchain4j:
+  open-ai:
+    chat-model:
+      api-key: ${OPENAI_API_KEY}
+      model-name: gpt-4o-mini
+
+server:
+  port: 8091
+
+logging:
+  level:
+    root: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+
+agent:
+  platform:
+    default-model-provider: openai
+    context-profile: balanced
+    api-key: ${AGENT_API_KEY:}
+    rate-limit-per-minute: 120
+    audit-dir: .agent-audit
+    compiler-output-max-chars: 50000
+    ai-prompt-max-chars: 50000
+    ai-output-max-chars: 50000
+    error-chunk-max-chars: 15000
+    max-chunks-per-iteration: 4
+    max-files-per-run: 120
+    production-safety-always-on: true
+  providers:
+    openai:
+      enabled: true
+      api-key: ${OPENAI_API_KEY:}
+      model-name: ${OPENAI_MODEL_NAME:gpt-4o-mini}
+    gemini:
+      enabled: false
+      api-key: ${GOOGLE_GENAI_API_KEY:}
+      model-name: ${GEMINI_MODEL_NAME:gemini-1.5-flash}
+    vertex-gemini:
+      enabled: false
+      api-key: ${VERTEX_GEMINI_API_KEY:}
+      model-name: ${VERTEX_GEMINI_MODEL_NAME:gemini-1.5-pro}
+    anthropic:
+      enabled: false
+      api-key: ${ANTHROPIC_API_KEY:}
+      model-name: ${ANTHROPIC_MODEL_NAME:claude-3-5-sonnet-20241022}
+    azure-openai:
+      enabled: false
+      api-key: ${AZURE_OPENAI_API_KEY:}
+      model-name: ${AZURE_OPENAI_MODEL_NAME:gpt-4o}
+    ollama:
+      enabled: false
+      api-key: ${OLLAMA_API_KEY:}
+      model-name: ${OLLAMA_MODEL_NAME:llama3.1}
+    mistral:
+      enabled: false
+      api-key: ${MISTRAL_API_KEY:}
+      model-name: ${MISTRAL_MODEL_NAME:mistral-large-latest}
+    openrouter:
+      enabled: false
+      api-key: ${OPENROUTER_API_KEY:}
+      model-name: ${OPENROUTER_MODEL_NAME:openai/gpt-4o-mini}
