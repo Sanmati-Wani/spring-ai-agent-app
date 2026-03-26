@@ -90,7 +90,7 @@ agent:
   providers:
     openai:
       enabled: true
-      api-key: ${OPENAI_API_KEY}
+      api-key: ${key}
       model-name: ${OPENAI_MODEL_NAME:gpt-5.3-chat-latest}
       temperature: ${OPENAI_TEMPERATURE:1.0}
     gemini:
