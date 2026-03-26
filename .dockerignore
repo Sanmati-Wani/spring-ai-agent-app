@@ -1,0 +1,11 @@
+target/
+!target/*.jar
+.git
+.gitignore
+.idea
+*.iml
+*.log
+.agent-audit
+generated-code
+node_modules
+.mvn/wrapper/maven-wrapper.jar
