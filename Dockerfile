@@ -23,11 +23,13 @@ COPY --from=build /app/extracted/application/ ./
 RUN chown -R agent:agent /app
 USER agent
 
-EXPOSE 8080
-
+ENV PORT=8093
+ENV SERVER_CONTEXT_PATH=/
 ENV JAVA_OPTS="-XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -Djava.security.egd=file:/dev/./urandom"
 
+EXPOSE ${PORT}
+
 HEALTHCHECK --interval=30s --timeout=5s --start-period=60s --retries=3 \
-  CMD wget -qO- http://localhost:8080/actuator/health || exit 1
+  CMD wget -qO- http://localhost:${PORT}/actuator/health || exit 1
 
 ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS org.springframework.boot.loader.launch.JarLauncher"]
