@@ -30,7 +30,15 @@ public class McpController {
     public McpController(McpClientService mcpClientService) {
         this.mcpClientService = mcpClientService;
     }
+ @GetMapping("/")
+    public String home() {
+        return "App is LIVE 🚀";
+    }
 
+    @GetMapping("/test")
+    public String test() {
+        return "Working";
+    }
     @GetMapping("/status")
     @Operation(summary = "Get MCP client connection status")
     public ResponseEntity<Map<String, Object>> status() {
